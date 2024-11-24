@@ -2,7 +2,7 @@
 
 document.addEventListener("DOMContentLoaded", function() {  
   // 选择所有书籍项  
-  const bookItems = document.querySelectorAll(".book-item");  
+  const bookItems = document.querySelectorAll(".employee-card");  
 
   // 添加点击事件（onclick）  
   bookItems.forEach(function(item) {  
