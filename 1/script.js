@@ -1,5 +1,3 @@
-// JavaScript 添加事件处理器（onclick、onchange、onmousedown、onmouseout、onmouseover、onmouseup）  
-
 document.addEventListener("DOMContentLoaded", function() {  
   // 选择所有书籍项  
   const bookItems = document.querySelectorAll(".employee-card");  
