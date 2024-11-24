@@ -1,0 +1,55 @@
+/* 类别选择器 */  
+.body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 20px;  
+}  
+
+.department {  
+    margin-bottom: 20px;  
+}  
+
+.tech-dept {  
+    background-color: #e0f7e9; /* 浅绿色背景 */  
+}  
+
+.marketing-dept {  
+    background-color: #e3f2fd; /* 浅蓝色背景 */  
+}  
+
+.hr-dept {  
+    background-color: #ffe0b2; /* 浅橙色背景 */  
+}  
+
+/* 后代选择器 */  
+.department .employee-card {  
+    color: #424242; /* 深灰色字体 */  
+    padding: 10px; /* 较小内边距以贴合字体 */  
+    line-height: 1.5; /* 调整行高以拉紧行间距 */  
+    border-bottom: 1px solid #e0e0e0; /* 更薄的底部边框 */  
+}  
+
+/* 高评分员工的样式 */  
+.high-rating {  
+    background-color: #f5f5f5; /* 灰色背景 */  
+    border-bottom: 0.5px solid #e0e0e0; /* 边框大小一致，与字体贴合 */  
+}  
+
+/* 伪类选择器 */  
+.employee-card:hover {  
+    background-color: #fff9c4; /* 悬停时背景色 */  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 阴影 */  
+}  
+
+/* 并集选择器 */  
+.tech-dept, .marketing-dept, .hr-dept {  
+    font-family: Arial, sans-serif;  
+    line-height: 1.5;  
+}  
+
+/* 伪类和类别选择器组合 */  
+.high-rating:hover {  
+    color: #ffd700; /* 悬停时字体颜色 */  
+    font-weight: bold; /* 加粗 */  
+    text-decoration: underline; /* 下划线 */  
+}  
