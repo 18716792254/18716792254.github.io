@@ -17,11 +17,6 @@ const data = {
     this.hours = now.getHours();
     this.minutes = now.getMinutes();
     this.seconds = now.getSeconds();
-    this.milliseconds = now.getMilliseconds(); // 获取毫秒
-
-    // 获取时区偏移量（单位为分钟），并将其转换为类似 "UTC+8" 的格式
-    const offset = now.getTimezoneOffset();  // 获取时区偏移（相对于 UTC，单位为分钟）
-    const sign = offset > 0 ? "-" : "+";  // 根据偏移量判断时区符号
     const hours = Math.floor(Math.abs(offset) / 60);  // 获取时区的小时部分
     const minutes = Math.abs(offset) % 60;  // 获取时区的分钟部分
 
