@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <link rel="stylesheet" href="styles.css">  
     <title>吴-0254-2班-Edge</title>  
+    <script src="script.js"></script>  
+    <script src="clock.js"></script>  
+    <script src="mouseEvent.js"></script>  
+    <script src="screeninfo.js"></script>  
+    <script src="lastModified.js"></script> 
 </head>  
 <body>  
     <div class="tech-dept department">  
@@ -39,11 +44,17 @@
             <h3>吴九 - 人事经理 - 评分：4.6</h3>  
         </div>  
     </div>  
-
-    <script src="script.js"></script>  
-    <script src="clock.js"></script>  
-    <script src="mouseEvent.js"></script>  
-    <script src="screeninfo.js"></script>  
-    <script src="lastModified.js"></script>  
+<!-- 时钟显示 -->
+  <div id="clock" style="font-size: 2rem; margin-top: 20px;">时钟加载中...</div>
+  
+  <!-- 屏幕信息显示 -->
+  <div id="screen-info" style="font-size: 1rem; margin-top: 20px;">屏幕信息加载中...</div>
+  
+  <!-- 鼠标按下坐标显示 -->
+  <div id="mouse-coordinates" style="font-size: 1rem; margin-top: 20px;">鼠标坐标加载中...</div>
+  
+  <!-- 显示网页最后修改时间 -->
+  <div id="last-modified" style="font-size: 1rem; margin-top: 20px;">网页最后修改时间加载中...</div>
+     
 </body>  
 </html>
